@@ -1,0 +1,226 @@
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button+h3,
+.ui.vertical.stripe p+h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.toc.item {
+    display: block;
+}
+
+#paper {
+    /* background-color: #719fc6; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.menu .stencil-container {
+    display: block;
+    background: black;
+    background-color: black;
+    width: 500px;
+    min-height: 300px;
+}
+
+.fixed.launch.button {
+    /* display: none; */
+    position: fixed;
+    top: 5em;
+    left: 0px;
+    width: 55px;
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: 0.3s width ease, 0.5s transform ease;
+    -moz-transition: 0.3s width ease, 0.5s transform ease;
+    -o-transition: 0.3s width ease, 0.5s transform ease;
+    -ms-transition: 0.3s width ease, 0.5s transform ease;
+    transition: 0.3s width ease, 0.5s transform ease;
+    z-index: 1000;
+}
+
+.article {
+    margin-top: 80px;
+}
+
+body.pushable>.pusher {
+    background-color: #ededed;
+}
+
+
+/* Copyrights (c) Zohaib Aslam */
+
+.stencil-container .groups-toggle .group-label {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 80px !important;
+}
+
+.stencil-container .groups-toggle {
+    background-color: #1b1c1d;
+    padding: 20px 10px;
+    color: white;
+}
+
+.stencil-container .groups-toggle .btn.btn-expand {
+    top: 20px;
+    color: white;
+    left: 10px;
+    width: 30px;
+    height: 24px;
+    font-size: 20px;
+}
+
+.stencil-container .groups-toggle .btn.btn-collapse {
+    top: 20px;
+    color: white;
+    left: 40px;
+    width: 30px;
+    height: 24px;
+    font-size: 20px;
+}
+
+.stencil-container .search-wrap input {
+    margin: 8px;
+    max-width: 90%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 1.21428571em;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: .67857143em 1em;
+    background: #fff;
+    border: 1px solid rgba(34, 36, 38, .15) !important;
+    color: rgba(0, 0, 0, .87) !important;
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease, border-color .1s ease;
+    transition: box-shadow .1s ease, border-color .1s ease;
+    box-shadow: none;
+}
+
+.stencil-container .content {
+    top: 110px !important;
+    padding: 5px;
+}
+
+.stencil-container .group .group-label,
+.inspector-container .group .group-label {
+    background: black;
+    color: white;
+    font-size: 15px !important;
+    padding-left: 20px !important;
+    margin: 1px 0 !important;
+}
+
+.stencil-container .group .group-label:before,
+.inspector-container .group .group-label:before {
+    border-left-color: white !important;
+    top: -3px !important;
+}
+
+.stencil-container .group.closed,
+.inspector-container .group.closed {
+    max-height: 30px !important;
+}
+
+.stencil-container .joint-paper,
+.stencil-container .group,
+.inspector-container .group {
+    background-color: #ededed !important;
+    padding: 3px;
+}
+
+#inspector-heading {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background: #1b1c1d;
+    color: white;
+    text-align: center;
+}
+
+#inspector-text {
+    margin-top: 70px;
+    margin-left: -15px;
+}
+
+.inspector-container .joint-inspector{
+    top: 70px;
+}
+
+.stencil.item{
+    min-height: 152px;
+    min-width: 760px;
+}
