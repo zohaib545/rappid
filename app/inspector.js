@@ -80,7 +80,9 @@ App.config = App.config || {};
             { value: 'assets/image-icon1.svg', content: '<img height="42px" src="assets/image-icon1.svg"/>' },
             { value: 'assets/image-icon2.svg', content: '<img height="80px" src="assets/image-icon2.svg"/>' },
             { value: 'assets/image-icon3.svg', content: '<img height="80px" src="assets/image-icon3.svg"/>' },
-            { value: 'assets/image-icon4.svg', content: '<img height="80px" src="assets/image-icon4.svg"/>' }
+            { value: 'assets/image-icon4.svg', content: '<img height="80px" src="assets/image-icon4.svg"/>' },
+            { value: 'assets/images/add-database.png', content: '<img height="80px" src="assets/images/add-database.png"/>' },
+            { value: 'assets/images/no-sql.png', content: '<img height="80px" src="assets/images/no-sql.png"/>' }
         ],
 
         imageGender: [
